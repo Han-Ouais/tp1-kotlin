@@ -1,7 +1,8 @@
 package tp1
 
 data class User (
-    val id: String? = null,
+    val _id: String? = null,
     val name: String? = null,
-    val email: String? = null
+    val email: String? = null,
+    val password: String? = null
 )
