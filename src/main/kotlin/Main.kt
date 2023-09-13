@@ -16,7 +16,7 @@ fun main(args: Array<String>) {
 
             if (userList != null) {
                 for (user in userList) {
-                    println("User : ${user._id} | Name: ${user.name} | Email: ${user.email} | Password: ${user.password}")
+                    println("User : ${user._id} | Name : ${user.name} | Email : ${user.email} | Password : ${user.password}")
                 }
             } else {
                 println("La liste des utilisateurs est nulle.")
